@@ -12,7 +12,7 @@ public class TaskManager extends JFrame {
 
     public TaskManager() {
         // Cấu hình cơ bản cho cửa sổ
-        setTitle("Team Task Manager - Version 2.0");
+        setTitle("Team Task Manager - Version 1.0");
         setSize(400, 500);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
@@ -45,7 +45,8 @@ public class TaskManager extends JFrame {
         clearButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                listModel.clear();
+                // TODO: Member 2 sẽ code logic xóa hết task vào đây
+                JOptionPane.showMessageDialog(null, "Chức năng chưa được cài đặt!");
             }
         });
 
