@@ -36,7 +36,7 @@ public class TaskManager extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 // TODO: Member 1 sẽ code logic thêm task vào đây
-                String task=taskInput.getText();
+                String task = taskInput.getText();
                 if (!task.isEmpty()) {
                     listModel.addElement(task);
                     taskInput.setText("");
@@ -49,8 +49,7 @@ public class TaskManager extends JFrame {
         clearButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // TODO: Member 2 sẽ code logic xóa hết task vào đây
-                JOptionPane.showMessageDialog(null, "Chức năng chưa được cài đặt!");
+                listModel.clear();
             }
         });
 
