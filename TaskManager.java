@@ -12,7 +12,7 @@ public class TaskManager extends JFrame {
 
     public TaskManager() {
         // Cấu hình cơ bản cho cửa sổ
-        setTitle("Team Task Manager - Version 1.0");
+        setTitle("Team Task Manager - Version 2.0");
         setSize(400, 500);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
